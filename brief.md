@@ -25,3 +25,9 @@ Resource: What Is Phishing-Resistant MFA? - https://www.zscaler.com/zpedia/phish
 Under Oman’s Personal Data Protection Law, the authority must collect and process citizens’ personal data transparently and obtain explicit consent, unless a legal exception applies. It must inform individuals about collection purposes, data sources, processing methods, and their rights. The authority must implement appropriate technical and procedural safeguards, assess risks, maintain confidentiality, and appoint a data protection officer. It must notify the Ministry and affected individuals of personal data breaches and respect individuals’ rights to access, correct, transfer, or request erasure of their data.
 
 Resource: Royal Decree 6/2022 Issuing the Personal Data Protection Law - https://decree.om/2022/rd20220006/
+## Misconception in My Track
+One common wrong belief about DNS over HTTPS (DoH) is that it makes users completely anonymous online. In reality, DoH encrypts DNS queries, making it harder for internet service providers and network observers to see which domains users request. However, it does not guarantee complete anonymity, hide all browsing activity, or prevent websites from tracking users. The DNS provider can still see users’ queries and may keep logs. The relevant section to support this correction is the discussion of DoH’s privacy limitations in the resource.
+
+**Resource:** [What is DNS over HTTPS (DoH)? – SSL.com](https://www.ssl.com/faqs/what-is-dns-over-https-doh/)
+## Open Question
+One thing I would like to learn next is how to use reliable sources to verify information, identify common misconceptions, and distinguish facts from false claims. This would help me improve my research skills, think critically, and make better-informed decisions in my studies and daily life.
