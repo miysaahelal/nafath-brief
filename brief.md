@@ -13,3 +13,15 @@ Resource: 5 Steps to Modernizing Network Security in an AI-Driven Era - https://
 Android’s runtime permission model limits the login app to accessing its own sandbox by default. Access to sensitive data or device resources requires specific permissions, preventing unauthorized access. The app must request dangerous permissions at runtime when the user initiates a feature that needs them, rather than asking unnecessarily at startup. Before requesting permission, the app should explain why access is needed. Users can grant or deny requests, and the app must respect their decisions and continue functioning where possible.
 
 Resource: Request runtime permissions - https://developer.android.com/training/permissions/requesting
+## Networking
+DNS over HTTPS (DoH) is a protocol that encrypts DNS queries using HTTPS, protecting users’ browsing requests from being easily monitored or manipulated. It helps prevent internet service providers and network observers from seeing which domains users request, and reduces DNS spoofing and redirection attacks. However, DoH does not hide all browsing activity, encrypt website traffic by itself, or prevent websites from tracking users. The chosen DNS provider can still see queries and may retain logs.
+
+Resource: What is DNS over HTTPS (DoH)? - https://www.ssl.com/faqs/what-is-dns-over-https-doh/
+## Cybersecurity
+A phishing-resistant authentication method cryptographically binds credentials to the legitimate website, so they cannot be reused on a fake domain. It prevents attackers from relaying stolen login codes through phishing proxies. Qualifying methods include FIDO2/WebAuthn passkeys and security keys, especially device-bound passkeys, and PIV smart cards. Non-qualifying methods include SMS codes, email one-time passwords, authenticator-app codes (TOTP), and push-notification approvals, because attackers can intercept or relay them. Organizations should also secure recovery options and avoid weaker fallback methods whenever possible.
+
+Resource: What Is Phishing-Resistant MFA? - https://www.zscaler.com/zpedia/phishing-resistant-mfa
+## Data
+Under Oman’s Personal Data Protection Law, the authority must collect and process citizens’ personal data transparently and obtain explicit consent, unless a legal exception applies. It must inform individuals about collection purposes, data sources, processing methods, and their rights. The authority must implement appropriate technical and procedural safeguards, assess risks, maintain confidentiality, and appoint a data protection officer. It must notify the Ministry and affected individuals of personal data breaches and respect individuals’ rights to access, correct, transfer, or request erasure of their data.
+
+Resource: Royal Decree 6/2022 Issuing the Personal Data Protection Law - https://decree.om/2022/rd20220006/
